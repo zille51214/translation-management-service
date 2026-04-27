@@ -56,7 +56,7 @@ API is secured using **Laravel Sanctum**.
 ## 📦 Setup Instructions
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/translation-management-service.git
+git clone https://github.com/zille51214/translation-management-service.git
 cd translation-management-service
 
 composer install
