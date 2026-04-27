@@ -106,7 +106,7 @@ GET /api/export?locale=en
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Basic feature tests are included.
 
@@ -118,16 +118,26 @@ php artisan test
 
 ---
 
-## 📊 Database Seeding
+## Database Seeding
 
 * Helps test performance and scalability
 
 ---
 
-## 🏆 Design Decisions
+## Design Decisions
 
 * Used normalized schema for scalability
 * Implemented caching for fast export responses (<500ms)
 * Followed PSR-12 coding standards
 * Applied SOLID principles
+
+
+## API Documentation with Swagger
+
+This project uses Swagger/OpenAPI documentation for testing and viewing API endpoints.
+
+Swagger UI is available at:
+
+```text
+http://127.0.0.1:8000/api/documentation
 
