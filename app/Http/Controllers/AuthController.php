@@ -22,7 +22,7 @@ class AuthController extends Controller
                         property: 'email',
                         type: 'string',
                         format: 'email',
-                        example: 'admin@example.com'
+                        example: 'test@example.com'
                     ),
                     new OA\Property(
                         property: 'password',
