@@ -8,7 +8,7 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('translation_tag', function (Blueprint $table) {
+        Schema::create('tag_translation', function (Blueprint $table) {
             $table->id();
 
             $table->foreignId('translation_id')
